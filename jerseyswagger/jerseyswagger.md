@@ -1,9 +1,5 @@
-# jerseyswagger
-To demonstrate Jersey-Swagger integration
 
-
-
-You need to complete the four steps in order to set up your jersey application with Swagger:
+You need to complete the three steps in order to set up your jersey application with Swagger:
 
 1. Create a Maven based Jersey2.0 Java EE Web Application
 
@@ -149,8 +145,6 @@ public class SwaggerStudentResource {
 </web-app>
 
 4. And you are done! try this http://localhost:8080/jerseyswagger/api/swagger.json 
-
-
 
 
 
