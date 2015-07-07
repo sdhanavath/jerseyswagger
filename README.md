@@ -152,5 +152,34 @@ public class SwaggerStudentResource {
 
 
 
+Extension:
+
+
+/Adda Moxy JSON binding capability/feature
+Jersey JSON support comes as a set of extension modules where each of these modules contains an implementation of a Feature that needs to be registered into your
+
+application. There are multiple frameworks that provide support for JSON processing and/or JSON-to-Java binding.There few other approaches to add JSON binding support, but
+
+MOXy - JSON binding support via MOXy is a default and preferred way of supporting JSON binding in your Jersey applications since Jersey 2.0.
+
+By default Jersey 2.x does not implicitly register any extension features from the modules available on the classpath, unless explicitly stated.
+
+You just have add following 2 maven dependencies/ make them available in your classpath and Jersey will pick it by default the Moxy feature for binding.
+
+ 	<dependency>
+        	<groupId>org.glassfish.jersey.containers</groupId>
+        	<artifactId>jersey-container-grizzly2-http</artifactId>
+        </dependency>
+        <dependency>
+        	<groupId>org.glassfish.jersey.media</groupId>
+        	<artifactId>jersey-media-moxy</artifactId>
+        </dependency>
+
+In the above example You can find BlogService which demonstrates the Moxy JSON binding feature.
+
+
+
+
+
 
 

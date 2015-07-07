@@ -1,5 +1,5 @@
 
-You need to complete the three steps in order to set up your jersey application with Swagger:
+You need to complete the four steps in order to set up your jersey application with Swagger:
 
 1. Create a Maven based Jersey2.0 Java EE Web Application
 

@@ -16,7 +16,7 @@ import edu.adias.jersey.swagger.model.Student;
  * 
  */
 @Path("/student")
-@Produces({ "application/json", "application/xml" })
+@Produces({ "application/json" })
 public class StudentResource {
 	static StudentData studentData = new StudentData();
 
